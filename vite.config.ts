@@ -5,6 +5,7 @@ import { defineConfig } from "vitest/config";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/insider-horse-race-case/",
   plugins: [
     react(),
     svgr({

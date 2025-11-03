@@ -127,6 +127,9 @@ npm run test:coverage # Coverage report
 
 ## 🚀 Deployment
 
+### Live Demo
+🎮 **[Play the Game](https://mfakyol.github.io/insider-horse-race-case/)**
+
 ### Build for Production
 
 ```bash
@@ -134,6 +137,10 @@ npm run build
 ```
 
 The built files will be in the `dist/` directory, ready for deployment to any static hosting service.
+
+### Deploy to GitHub Pages
+
+This project is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the master branch.
 
 ## 🎯 Case Study Highlights
 
