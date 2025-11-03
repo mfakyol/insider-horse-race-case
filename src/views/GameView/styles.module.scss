@@ -1,0 +1,8 @@
+.gameView {
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  height: calc(100vh - var(--header-height));
+}

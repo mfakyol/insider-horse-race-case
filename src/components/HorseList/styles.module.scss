@@ -1,0 +1,19 @@
+.horseList {
+  height: 100%;
+  width: 20rem;
+  overflow-y: auto;
+}
+
+.horseItem {
+  margin-bottom: 0.5rem;
+}
+
+.activeHorse {
+  background-color: var(--color-pink) !important;
+}
+
+.horseIcon {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}

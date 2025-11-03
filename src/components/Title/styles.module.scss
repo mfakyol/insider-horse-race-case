@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+
+  &.large {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &.medium {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}

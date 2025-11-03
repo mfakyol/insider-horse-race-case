@@ -1,0 +1,51 @@
+.button {
+  padding: 0.625rem 1.25rem;
+  color: var(--white);
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  font-size: 1rem;
+
+  &:disabled,
+  &[disabled] {
+    background-color: var(--color-disabled-bg) !important;
+    cursor: not-allowed;
+  }
+
+  &.primary {
+    background-color: var(--color-blue);
+
+    &:hover {
+      background-color: var(--color-blue-hover);
+    }
+
+    &:active {
+      background-color: var(--color-blue-active);
+    }
+  }
+
+  &.success {
+    background-color: var(--color-green);
+
+    &:hover {
+      background-color: var(--color-green-hover);
+    }
+
+    &:active {
+      background-color: var(--color-green-active);
+    }
+  }
+
+  &.danger {
+    background-color: var(--color-red);
+
+    &:hover {
+      background-color: var(--color-red-hover);
+    }
+
+    &:active {
+      background-color: var(--color-red-active);
+    }
+  }
+}
